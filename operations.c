@@ -19,7 +19,7 @@ int main(){
     float q=4;
     float w;
     w=y/q;
-    printf("%f \n",w);
+    printf("%f \n",w); //Imprime 2.250000
 
 
     return 0;
