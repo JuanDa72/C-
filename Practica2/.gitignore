@@ -1,0 +1,7 @@
+*.tsv
+*.csv
+*.bin
+*.o
+*.pdf
+*.bak
+*.log
