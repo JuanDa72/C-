@@ -86,8 +86,8 @@ struct Song searchSong(const char* artistName, const char* songName) {
 
 int main(){
 
-    char artist[100] = "$uicideboy$";
-    char name[300]="10000 Degrees";
+    char artist[100] = "*KENNY";
+    char name[300]="Toxic";
 
     // Llamamos a tu función
     struct Song result = searchSong(artist, name);

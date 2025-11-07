@@ -35,7 +35,7 @@ int main() {
 
     struct Song song1;
     //Ahora intentar leer una posición en especifico 
-    int index = 27;
+    int index = 40;
     printf("Offset en el archivo: %ld\n", index*sizeof(struct Song));   
     fseek(fbinary, index * sizeof(struct Song), SEEK_SET); // salto al inicio de la canción 1000
     fread(&song1, sizeof(struct Song), 1, fbinary);        // leo solo esa canción

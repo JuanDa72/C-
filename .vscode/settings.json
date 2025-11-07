@@ -1,6 +1,7 @@
 {
     "files.associations": {
         "stdlib.h": "c",
-        "herramientas.h": "c"
+        "herramientas.h": "c",
+        "unistd.h": "c"
     }
 }
