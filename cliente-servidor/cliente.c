@@ -12,7 +12,7 @@
 struct sockaddr_in c_addr;
 
 int main (){
-
+    Operativo
     int cliente_fd=socket(AF_INET, SOCK_STREAM, 0);
     if(cliente_fd<0){
         perror("Error al crear el socket");
